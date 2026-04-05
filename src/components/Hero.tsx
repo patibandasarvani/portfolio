@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
                 : 'from-purple-600 via-pink-600 to-indigo-600'
             } bg-clip-text text-transparent`}
           >
-            Patibanda Sarvani
+            {personalInfo.name}
           </motion.h1>
 
           <TypingAnimation />
